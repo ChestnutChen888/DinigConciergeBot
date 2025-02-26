@@ -82,8 +82,8 @@ AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 
 ## Contact
 
-- ChestnutChen888
-- MutteTejeshu
+- ChestnutChen888 (zc3418@nyu.edu)
+- MutteTejeshu (tm4258@nyu.edu)
 - Project Link: [https://github.com/ChestnutChen888/DinigConciergeBot](https://github.com/ChestnutChen888/DinigConciergeBot)
 
 

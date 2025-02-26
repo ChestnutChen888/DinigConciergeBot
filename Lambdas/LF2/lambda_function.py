@@ -35,8 +35,8 @@ def delete_message(message):
         raise error
 
 def get_restaurant_ids(cuisine_request):
-    query = "https://search-restaurant-search-ddrqwpu6t5bll3jqm4i47dgxx4.aos.us-east-1.on.aws/restaurants/_search?q={cuisine}".format(cuisine = cuisine_request)
-    response = requests.get(query, auth=("ccass1", "waqaq123M_"))
+    query = "####://##########################################################/restaurants/_search?q={cuisine}".format(cuisine = cuisine_request)
+    response = requests.get(query, auth=("#########", "##########"))
     data = json.loads(response.content.decode("utf-8"))
     try:
         esData = data["hits"]["hits"]
