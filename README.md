@@ -49,44 +49,16 @@ This is a serverless, microservice-driven web application for a Dining Concierge
 - Yelp Developer Account
 - Required AWS IAM Permissions
 
-### Installation Steps
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/DinigConciergeBot.git
-cd DinigConciergeBot
-```
-
-2. Set up AWS credentials
-
-```bash
-# Configure AWS CLI
-aws configure
-```
-
-3. Install dependencies
-
-```bash
-# Install Python dependencies
-pip install -r requirements.txt
-```
 
 ## Data Collection
 
 The project uses Yelp API to collect restaurant data:
 
-- Collects 5,000+ restaurants from Manhattan
+- Collects 1,500 restaurants from Manhattan
 - Stores data in DynamoDB
 - Indexes restaurants in ElasticSearch
 
-## Deployment
 
-1. Deploy Frontend to S3
-2. Set up API Gateway
-3. Configure Lambda Functions
-4. Create Lex Chatbot
-5. Set up SQS and SES
 
 ## Configuration
 
@@ -98,14 +70,6 @@ AWS_ACCESS_KEY_ID=your_aws_access_key
 AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 
 
 ## Contact
@@ -114,8 +78,4 @@ AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 - MutteTejeshu
 - Project Link: [https://github.com/ChestnutChen888/DinigConciergeBot](https://github.com/ChestnutChen888/DinigConciergeBot)
 
-## Acknowledgements
 
-- AWS
-- Yelp API
-- Cloud Computing and Big Data Course, Spring 2025
