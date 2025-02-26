@@ -6,7 +6,7 @@ This is a serverless, microservice-driven web application for a Dining Concierge
 
 ## Live Demo
 
-🌐 Frontend URL: [http://ai-dining-concierge-chatbot-frontend.s3-website-us-east-1.amazonaws.com/](http://ai-dining-concierge-chatbot-frontend.s3-website-us-east-1.amazonaws.com/)
+🌐 Frontend URL: [http://ai-dining-concierge-chatbot-frontend.s3-website-us-east-1.amazonaws.com](http://ai-dining-concierge-chatbot-frontend.s3-website-us-east-1.amazonaws.com)
 
 ### Locations for codes:
  - The logic for importing data into dynamoDb is located in dynamoDb data-collection -> yelpdb.ipynb in our repository
